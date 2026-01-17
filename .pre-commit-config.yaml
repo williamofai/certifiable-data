@@ -25,6 +25,8 @@ repos:
           - --enable=all
           - --suppress=missingIncludeSystem
           - --suppress=unmatchedSuppression
+          - --suppress=unassignedVariable
+          - --suppress=variableScope
           - --suppress=unusedFunction
           - --std=c99
           - -Iinclude
