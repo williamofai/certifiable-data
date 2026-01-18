@@ -1,7 +1,7 @@
 # certifiable-data
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/williamofai/certifiable-data)
-[![Tests](https://img.shields.io/badge/tests-142%20passing-brightgreen)](https://github.com/williamofai/certifiable-data)
+[![Tests](https://img.shields.io/badge/tests-133%20passing-brightgreen)](https://github.com/williamofai/certifiable-data)
 [![License](https://img.shields.io/badge/license-GPL--3.0-blue)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-x86%20%7C%20ARM%20%7C%20RISC--V-lightgrey)](https://github.com/williamofai/certifiable-data)
 
