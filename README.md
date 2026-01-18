@@ -231,13 +231,18 @@ Any epoch can be independently verified. If faults occur, the chain is invalidat
 
 ## Related Projects
 
-| Project | Description | Demo |
-|---------|-------------|------|
-| [certifiable-inference](https://github.com/williamofai/certifiable-inference) | Deterministic inference engine | [inference.speytech.com](https://inference.speytech.com) |
-| [certifiable-training](https://github.com/williamofai/certifiable-training) | Deterministic training engine | [training.speytech.com](https://training.speytech.com) |
-| **certifiable-data** | Deterministic data pipeline | — |
+| Project | Description |
+|---------|-------------|
+| [certifiable-data](https://github.com/williamofai/certifiable-data) | Deterministic data pipeline |
+| [certifiable-training](https://github.com/williamofai/certifiable-training) | Deterministic training engine |
+| [certifiable-quant](https://github.com/williamofai/certifiable-quant) | Deterministic quantization |
+| [certifiable-deploy](https://github.com/williamofai/certifiable-deploy) | Deterministic model packaging |
+| [certifiable-inference](https://github.com/williamofai/certifiable-inference) | Deterministic inference engine |
 
-Together, `certifiable-inference` + `certifiable-training` + `certifiable-data` provide a complete deterministic ML pipeline for safety-critical systems.
+Together, these projects provide a complete deterministic ML pipeline for safety-critical systems:
+```
+certifiable-data → certifiable-training → certifiable-quant → certifiable-deploy → certifiable-inference
+```
 
 ## Why This Matters
 
