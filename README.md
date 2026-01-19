@@ -269,19 +269,17 @@ This is the first ML data pipeline designed from the ground up for safety-critic
 
 Want to understand the engineering principles behind certifiable-data?
 
-**Formal Methods:**
-- [Statistics as State Transitions](https://speytech.com/insights/statistics-as-state-transitions/)
-- [Composition Without Compromise: Connecting FSMs](https://speytech.com/insights/fsm-composition/)
-- [The Mathematics of Deterministic Scheduling](https://speytech.com/insights/deterministic-scheduling/)
+**Determinism & Reproducibility:**
+- [Bit-Perfect Reproducibility: Why It Matters and How to Prove It](https://speytech.com/insights/bit-perfect-reproducibility/)
+- [The ML Non-Determinism Problem](https://speytech.com/insights/ml-nondeterminism-problem/)
+- [From Proofs to Code: Mathematical Transcription in C](https://speytech.com/insights/mathematical-proofs-to-code/)
 
-**Safety Engineering:**
+**Safety-Critical Foundations:**
 - [The Real Cost of Dynamic Memory in Safety-Critical Systems](https://speytech.com/insights/dynamic-memory-safety-critical/)
-- [Semantic Security Monitoring in Deterministic Systems](https://speytech.com/insights/semantic-security-monitoring/)
-- [Reproducibility and Post-Incident Analysis in Implantable Cardiac Devices](https://speytech.com/insights/implantable-device-litigation/)
+- [Closure, Totality, and the Algebra of Safe Systems](https://speytech.com/insights/closure-totality-algebra/)
 
-**Economic Case:**
-- [The Hidden Cost of Non-Determinism](https://speytech.com/insights/nondeterminism-cost-debugging/)
-- [Reproducibility and the Economics of Debugging](https://speytech.com/insights/debugging-economics/)
+**Production ML Architecture:**
+- [A Complete Deterministic ML Pipeline for Safety-Critical Systems](https://speytech.com/ai-architecture/deterministic-ml-pipeline/)
 
 ## Compliance Support
 
