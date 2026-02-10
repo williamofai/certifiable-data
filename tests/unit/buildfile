@@ -1,0 +1,19 @@
+tests = exe{test_augment test_batch test_bit_identity test_merkle test_normalize test_primitives test_prng test_shuffle}
+
+exe{test_augment}: c{test_augment} ../../src/liba{certifiable_data}
+exe{test_batch}: c{test_batch} ../../src/liba{certifiable_data}
+exe{test_bit_identity}: c{test_bit_identity} ../../src/liba{certifiable_data}
+exe{test_merkle}: c{test_merkle} ../../src/liba{certifiable_data}
+exe{test_normalize}: c{test_normalize} ../../src/liba{certifiable_data}
+exe{test_primitives}: c{test_primitives} ../../src/liba{certifiable_data}
+exe{test_prng}: c{test_prng} ../../src/liba{certifiable_data}
+exe{test_shuffle}: c{test_shuffle} ../../src/liba{certifiable_data}
+
+$tests:
+{
+  c.coptions += -UNDEBUG
+  c.libs += -lm
+  test = true
+}
+
+./: $tests
