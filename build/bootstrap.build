@@ -1,0 +1,7 @@
+project = certifiable-data
+
+using version
+using config
+using test
+using install
+using dist
