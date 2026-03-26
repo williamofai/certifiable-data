@@ -1,0 +1,30 @@
+import cd = certifiable-data%liba{certifiable-data}
+
+tests = exe{ \
+  certifiable_data_test_augment \
+  certifiable_data_test_batch \
+  certifiable_data_test_bit_identity \
+  certifiable_data_test_merkle \
+  certifiable_data_test_normalize \
+  certifiable_data_test_primitives \
+  certifiable_data_test_prng \
+  certifiable_data_test_shuffle \
+  }
+
+exe{certifiable_data_test_augment}: c{test_augment} $cd
+exe{certifiable_data_test_batch}: c{test_batch} $cd
+exe{certifiable_data_test_bit_identity}: c{test_bit_identity} $cd
+exe{certifiable_data_test_merkle}: c{test_merkle} $cd
+exe{certifiable_data_test_normalize}: c{test_normalize} $cd
+exe{certifiable_data_test_primitives}: c{test_primitives} $cd
+exe{certifiable_data_test_prng}: c{test_prng} $cd
+exe{certifiable_data_test_shuffle}: c{test_shuffle} $cd
+
+$tests:
+{
+  c.coptions += -UNDEBUG
+  c.libs += -lm
+  test = true
+}
+
+./: $tests

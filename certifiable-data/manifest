@@ -11,3 +11,4 @@ url: https://github.com/SpeyTech/certifiable-data
 package-url: https://github.com/SpeyTech/certifiable-data
 depends: * build2 >= 0.16.0
 depends: * bpkg >= 0.16.0
+tests: certifiable-data-tests == $
