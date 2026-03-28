@@ -34,21 +34,3 @@
 *.exe.dlls/
 *.exe.manifest
 *.pc
-
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-*~
-
-# Test outputs
-Testing/
-*.log
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Generated
-*.generated.*
